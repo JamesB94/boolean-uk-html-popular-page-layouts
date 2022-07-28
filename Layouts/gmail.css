@@ -1,0 +1,49 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.container {
+    display: grid;
+    grid-template:
+
+      "header  header header header"     50px
+      "left-menu main  right-menu side-menu" 600px/
+        200px     1fr    200px 100px;
+   }
+
+   .header {
+    grid-area: header ;
+    background-color: blue;
+    text-align: center;
+    color: white;
+   }
+
+   .left-menu {
+    grid-area: left-menu ;
+    background-color: red;
+    text-align: center;
+    color: white;
+   }
+
+   .main {
+    grid-area: main ;
+    background-color: green ;
+    text-align: center;
+    color: white;
+   }
+
+   .right-menu {
+    grid-area: right-menu ;
+    background-color: purple ;
+    text-align: center;
+    color: white;
+   }
+
+   .side-menu {
+    grid-area: ;
+    background-color: black ;
+    text-align: center;
+    color: white;
+   }
+   

@@ -1,0 +1,108 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.container {
+    display: grid;
+    grid-template:
+
+      "left-whitespace  header header header right-whitespace"     30px
+      "left-whitespace top-left main-upper top-right right-whitespace" 200px
+      "left-whitespace center-left feed center-right right-whitespace" 200px
+      "left-whitespace bottom-left feed bottom-right right-whitespace" 200px/
+        200px     200px    400px 200px 200px;
+   }
+
+   .left-whitespace {
+    grid-area: left-whitespace ;
+    background-color: white;
+    text-align: center;
+    
+   }
+
+   .header {
+    grid-area: header ;
+    background-color: blueviolet;
+    text-align: center;
+    color: white;
+    
+   }
+
+   .right-whitespace {
+    grid-area: right-whitespace ;
+    background-color: white;
+    text-align: center;
+   }
+
+   .top-left {
+    grid-area: top-left ;
+    background-color: royalblue;
+    text-align: center;
+    color: white;
+    border: 5px solid white;
+    
+
+   }
+
+   .center-left {
+    grid-area: center-left ;
+    background-color: red;
+    text-align: center;
+    color: white;
+    border: 5px solid white;
+
+   }
+
+   .bottom-left {
+    grid-area: bottom-left ;
+    background-color: yellow;
+    text-align: center;
+    color: black;
+    border: 5px solid white;
+
+   }
+
+   .main-upper {
+    grid-area: main-upper ;
+    background-color: red;
+    text-align: center;
+    color: white;
+    border: 30px solid white;
+
+   }
+
+   .feed {
+    grid-area: feed ; 
+    background-color: teal;
+    text-align: center;
+    color: black;
+    border: 5px solid white;
+   }
+
+   .top-right {
+    grid-area: top-right ;
+    background-color: royalblue;
+    text-align: center;
+    color: white;
+    border: 5px solid white;
+
+   }
+
+   .center-right {
+    grid-area: center-right ;
+    background-color: lightcoral;
+    text-align: center;
+    color: white;
+    border: 5px solid white;
+
+   }
+
+   .bottom-right {
+    grid-area: bottom-right ;
+    background-color: lawngreen;
+    text-align: center;
+    color: white;
+    border: 5px solid white;
+
+   }
